@@ -215,4 +215,4 @@ if __name__ == '__main__':
     trained_model = svm_object.train_scaled_data()
     confusion_matrix_from_svm = svm_object.get_confusion_matrix()
     
-    print(confusion_matrix)
+    print(confusion_matrix_from_svm.conf_matrix)
