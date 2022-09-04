@@ -198,6 +198,7 @@ if __name__ == '__main__':
     )
     # Get validation features
     validation_features, validation_labels = get_features(
+        image_classifier_model,
         data_generator=validation_data,
         feature_dimension=1000,
         sample_size=92,
