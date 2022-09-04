@@ -209,7 +209,7 @@ if __name__ == '__main__':
         train_data=train_features,
         train_label=train_labels,
         test_data=validation_features,
-        test_labels=validation_labels
+        test_label=validation_labels
     )
     scaled_object = svm_object.standard_scaler()
     trained_model = svm_object.train_scaled_data()
